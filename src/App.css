@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+*{
+
+  background-color: #DDDDDD;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* progress bar css */
+
+
+.about-skills {
+	display: block;
+	margin: auto;
+	padding: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.about-skills h4 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	text-transform: capitalize;
+	color: grey;
+	margin: auto;
+	text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.skills-wrappers {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 50px 10%;
 }
 
-.App-link {
-  color: #61dafb;
+.skills-items {
+	margin: 30px 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skills-items h6 {
+	font-family: 'Rubik', sans-serif;
+	font-size: 11px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 15px auto;
+	line-height: 1.3px;
+}
+
+.skills-items .skills-progress {
+	background-color: #ffffff;
+	border-radius: 20px;
+}
+
+.skills-items .skills-progress-bar {
+	/*background-color: #dc3545;*/
+	height: 10px;
+	position: relative;
+}
+
+.skills-items .skills-progress span {
+	position: absolute;
+	top: -24px;
+	right: 0;
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+}
+
+/* Progress Bar */
+
+.photoshop {
+	width: 90%;
+	background-color: #198745;
+}
+
+.illustrator {
+	width: 80%;
+	background-color: #198745;
+}
+
+.figma {
+	width: 75%;
+  background-color: #198745;
+}
+
+.html {
+	width: 65%;
+	background-color: #198745;
+}
+
+.javascript {
+	width: 45%;
+	background-color: #198745;
+}
+
+.react {
+	width: 55%;
+	background-color: #198745;
 }
