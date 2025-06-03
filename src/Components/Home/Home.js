@@ -78,8 +78,12 @@ function Home() {
         <div className="col-lg-6 col-md-12 mb-4 text-center text-lg-start">
           <h1 className="display-5 text-dark" data-aos="fade-right">Karthikeyan</h1>
           <p className="text-start" data-aos="flip-left">
-            Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap.
-            Check out the examples below for how you can remix and restyle it to your liking.
+       I am a passionate Web Developer and Content Creator dedicated to building engaging, 
+       user-friendly websites and digital experiences. With a strong foundation in front-end and back-end technologies, 
+       I craft responsive and efficient web solutions that meet client needs. Alongside coding,
+        I create valuable content that educates,
+        inspires, and connects with audiences across various platforms. Driven by creativity and technical expertise, 
+       I continuously learn and innovate to deliver high-quality results in both development and content creation.
           </p>
 
           {/* Buttons */}
@@ -95,16 +99,27 @@ function Home() {
             >
               Hire me
             </button>
-            <button
-              type="button"
-              className="btn btn-outline-dark btn-lg px-4"
-              style={{
-                boxShadow: "0 4px 6px -2px rgba(0, 0, 0, 0.2)"
-              }}
-              data-aos="fade-left"
-            >
-              Download CV
-            </button>
+
+            <a
+  href="/KARTHIK.pdf"
+  download="KARTHIK.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button
+    type="button"
+    className="btn btn-outline-dark btn-lg px-4"
+    style={{
+      boxShadow: "0 4px 6px -2px rgba(0, 0, 0, 0.2)"
+    }}
+    data-aos="fade-left"
+  >
+    Download CV
+  </button>
+</a>
+
+
+
           </div>
 
           {/* Line & Socials */}
