@@ -87,7 +87,10 @@ function Home() {
           </p>
 
           {/* Buttons */}
+         
           <div className="d-flex flex-wrap justify-content-center justify-content-lg-start gap-3 mt-3">
+             <a href="https://www.fiverr.com/karthikeyan_s02" target="_blank"
+  rel="noopener noreferrer">
             <button
               type="button"
               className="btn btn-outline-dark btn-lg px-4 fw-bold"
@@ -99,7 +102,7 @@ function Home() {
             >
               Hire me
             </button>
-
+</a>
             <a
   href="/KARTHIK.pdf"
   download="KARTHIK.pdf"
