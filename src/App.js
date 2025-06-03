@@ -7,9 +7,13 @@ import Header from './Components/Home/Header.js';
 import Footer from './Components/Home/Footer.js';
 import About from './Components/Home/About.js';
 import Skills from './Components/Home/Skills.js';
+import Projects from './Components/Home/Projects.js';
+import Contact from './Components/Home/Contact.js';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 
 import { Routes, Route } from 'react-router-dom';
@@ -27,6 +31,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/skills" element={<Skills />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
         {/* Add more pages like this */}
       </Routes>
 
